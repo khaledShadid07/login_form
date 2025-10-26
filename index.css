@@ -19,16 +19,12 @@ transition:opacity 1.5s;
 button:hover{opacity: 1;}
 
 @media screen and (width<500px) {
-.container{position: relative;width: 200vw;height: 200vh;}
-form{
-  position: fixed;left: 50%;top:50%;
-}
+
+form{max-width: 350px;}
 
 }
 @media screen and (height<500px) {
-.container{position: relative;width: 200vw;height: 200vh;}
-form{
-  position: fixed;margin: auto;
-}
+.container{height:110vh;}
+
 
 }
